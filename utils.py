@@ -1,14 +1,3 @@
-# ####################################################
-# DE2-COM2 Computing 2
-# Individual project
-#
-# Title: UTILS
-# Authors: Liuqing Chen, Feng Shi, Isaac Engel, and
-#          Nicolas Rojas
-# ####################################################
-
-# ------ Please make sure you have installed the following packages: matplotlib, numpy, PIL -------
-
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
@@ -429,3 +418,4 @@ def generate_shape(shape_id):
     elif shape_id == 19:
         shape = [[0, 0], [1, -1], [1, 0], [2, -1]]
     return shape
+
