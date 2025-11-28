@@ -1,15 +1,3 @@
-# ####################################################
-# DE2-COM2 Computing 2
-# Individual project
-#
-# Title: PERFORMANCE TEST
-# Authors: Liuqing Chen, Feng Shi, Isaac Engel, and
-#          Nicolas Rojas
-# ####################################################
-
-# ####################################################
-
-
 from main import Tetris
 import utils
 import timeit
@@ -80,3 +68,4 @@ else:  # if the solution is valid, test time performance and accuracy
         print("Displaying solution...")
         utils.visualisation(target, solution, the_forbidden_pieces)
         utils.visual_perfect(perfect_solution, solution, the_forbidden_pieces)
+
